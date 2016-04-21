@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2FE32041CC86FEB00242EB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE32031CC86FEB00242EB6 /* AppDelegate.swift */; };
+		F2FE32061CC86FEB00242EB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE32051CC86FEB00242EB6 /* ViewController.swift */; };
+		F2FE32091CC86FEB00242EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FE32071CC86FEB00242EB6 /* Main.storyboard */; };
+		F2FE320B1CC86FEB00242EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FE320A1CC86FEB00242EB6 /* Assets.xcassets */; };
+		F2FE320E1CC86FEB00242EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FE320C1CC86FEB00242EB6 /* LaunchScreen.storyboard */; };
+		F2FE32191CC86FEB00242EB6 /* swiftday02_______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE32181CC86FEB00242EB6 /* swiftday02_______Tests.swift */; };
+		F2FE32241CC86FEB00242EB6 /* swiftday02_______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE32231CC86FEB00242EB6 /* swiftday02_______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2FE32151CC86FEB00242EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2FE31F81CC86FEB00242EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2FE31FF1CC86FEB00242EB6;
+			remoteInfo = "swiftday02-字符串和字符";
+		};
+		F2FE32201CC86FEB00242EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2FE31F81CC86FEB00242EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2FE31FF1CC86FEB00242EB6;
+			remoteInfo = "swiftday02-字符串和字符";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2FE32001CC86FEB00242EB6 /* swiftday02-字符串和字符.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftday02-字符串和字符.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FE32031CC86FEB00242EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2FE32051CC86FEB00242EB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2FE32081CC86FEB00242EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2FE320A1CC86FEB00242EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2FE320D1CC86FEB00242EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2FE320F1CC86FEB00242EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FE32141CC86FEB00242EB6 /* swiftday02-字符串和字符Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftday02-字符串和字符Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FE32181CC86FEB00242EB6 /* swiftday02_______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swiftday02_______Tests.swift"; sourceTree = "<group>"; };
+		F2FE321A1CC86FEB00242EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FE321F1CC86FEB00242EB6 /* swiftday02-字符串和字符UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftday02-字符串和字符UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FE32231CC86FEB00242EB6 /* swiftday02_______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swiftday02_______UITests.swift"; sourceTree = "<group>"; };
+		F2FE32251CC86FEB00242EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2FE31FD1CC86FEB00242EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FE32111CC86FEB00242EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FE321C1CC86FEB00242EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2FE31F71CC86FEB00242EB6 = {
+			isa = PBXGroup;
+			children = (
+				F2FE32021CC86FEB00242EB6 /* swiftday02-字符串和字符 */,
+				F2FE32171CC86FEB00242EB6 /* swiftday02-字符串和字符Tests */,
+				F2FE32221CC86FEB00242EB6 /* swiftday02-字符串和字符UITests */,
+				F2FE32011CC86FEB00242EB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2FE32011CC86FEB00242EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE32001CC86FEB00242EB6 /* swiftday02-字符串和字符.app */,
+				F2FE32141CC86FEB00242EB6 /* swiftday02-字符串和字符Tests.xctest */,
+				F2FE321F1CC86FEB00242EB6 /* swiftday02-字符串和字符UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2FE32021CC86FEB00242EB6 /* swiftday02-字符串和字符 */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE32031CC86FEB00242EB6 /* AppDelegate.swift */,
+				F2FE32051CC86FEB00242EB6 /* ViewController.swift */,
+				F2FE32071CC86FEB00242EB6 /* Main.storyboard */,
+				F2FE320A1CC86FEB00242EB6 /* Assets.xcassets */,
+				F2FE320C1CC86FEB00242EB6 /* LaunchScreen.storyboard */,
+				F2FE320F1CC86FEB00242EB6 /* Info.plist */,
+			);
+			path = "swiftday02-字符串和字符";
+			sourceTree = "<group>";
+		};
+		F2FE32171CC86FEB00242EB6 /* swiftday02-字符串和字符Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE32181CC86FEB00242EB6 /* swiftday02_______Tests.swift */,
+				F2FE321A1CC86FEB00242EB6 /* Info.plist */,
+			);
+			path = "swiftday02-字符串和字符Tests";
+			sourceTree = "<group>";
+		};
+		F2FE32221CC86FEB00242EB6 /* swiftday02-字符串和字符UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2FE32231CC86FEB00242EB6 /* swiftday02_______UITests.swift */,
+				F2FE32251CC86FEB00242EB6 /* Info.plist */,
+			);
+			path = "swiftday02-字符串和字符UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2FE31FF1CC86FEB00242EB6 /* swiftday02-字符串和字符 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FE32281CC86FEB00242EB6 /* Build configuration list for PBXNativeTarget "swiftday02-字符串和字符" */;
+			buildPhases = (
+				F2FE31FC1CC86FEB00242EB6 /* Sources */,
+				F2FE31FD1CC86FEB00242EB6 /* Frameworks */,
+				F2FE31FE1CC86FEB00242EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftday02-字符串和字符";
+			productName = "swiftday02-字符串和字符";
+			productReference = F2FE32001CC86FEB00242EB6 /* swiftday02-字符串和字符.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2FE32131CC86FEB00242EB6 /* swiftday02-字符串和字符Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FE322B1CC86FEB00242EB6 /* Build configuration list for PBXNativeTarget "swiftday02-字符串和字符Tests" */;
+			buildPhases = (
+				F2FE32101CC86FEB00242EB6 /* Sources */,
+				F2FE32111CC86FEB00242EB6 /* Frameworks */,
+				F2FE32121CC86FEB00242EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2FE32161CC86FEB00242EB6 /* PBXTargetDependency */,
+			);
+			name = "swiftday02-字符串和字符Tests";
+			productName = "swiftday02-字符串和字符Tests";
+			productReference = F2FE32141CC86FEB00242EB6 /* swiftday02-字符串和字符Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2FE321E1CC86FEB00242EB6 /* swiftday02-字符串和字符UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FE322E1CC86FEB00242EB6 /* Build configuration list for PBXNativeTarget "swiftday02-字符串和字符UITests" */;
+			buildPhases = (
+				F2FE321B1CC86FEB00242EB6 /* Sources */,
+				F2FE321C1CC86FEB00242EB6 /* Frameworks */,
+				F2FE321D1CC86FEB00242EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2FE32211CC86FEB00242EB6 /* PBXTargetDependency */,
+			);
+			name = "swiftday02-字符串和字符UITests";
+			productName = "swiftday02-字符串和字符UITests";
+			productReference = F2FE321F1CC86FEB00242EB6 /* swiftday02-字符串和字符UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2FE31F81CC86FEB00242EB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = penglei;
+				TargetAttributes = {
+					F2FE31FF1CC86FEB00242EB6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F2FE32131CC86FEB00242EB6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F2FE31FF1CC86FEB00242EB6;
+					};
+					F2FE321E1CC86FEB00242EB6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F2FE31FF1CC86FEB00242EB6;
+					};
+				};
+			};
+			buildConfigurationList = F2FE31FB1CC86FEB00242EB6 /* Build configuration list for PBXProject "swiftday02-字符串和字符" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2FE31F71CC86FEB00242EB6;
+			productRefGroup = F2FE32011CC86FEB00242EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2FE31FF1CC86FEB00242EB6 /* swiftday02-字符串和字符 */,
+				F2FE32131CC86FEB00242EB6 /* swiftday02-字符串和字符Tests */,
+				F2FE321E1CC86FEB00242EB6 /* swiftday02-字符串和字符UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2FE31FE1CC86FEB00242EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FE320E1CC86FEB00242EB6 /* LaunchScreen.storyboard in Resources */,
+				F2FE320B1CC86FEB00242EB6 /* Assets.xcassets in Resources */,
+				F2FE32091CC86FEB00242EB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FE32121CC86FEB00242EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FE321D1CC86FEB00242EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2FE31FC1CC86FEB00242EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FE32061CC86FEB00242EB6 /* ViewController.swift in Sources */,
+				F2FE32041CC86FEB00242EB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FE32101CC86FEB00242EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FE32191CC86FEB00242EB6 /* swiftday02_______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FE321B1CC86FEB00242EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FE32241CC86FEB00242EB6 /* swiftday02_______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2FE32161CC86FEB00242EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2FE31FF1CC86FEB00242EB6 /* swiftday02-字符串和字符 */;
+			targetProxy = F2FE32151CC86FEB00242EB6 /* PBXContainerItemProxy */;
+		};
+		F2FE32211CC86FEB00242EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2FE31FF1CC86FEB00242EB6 /* swiftday02-字符串和字符 */;
+			targetProxy = F2FE32201CC86FEB00242EB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2FE32071CC86FEB00242EB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FE32081CC86FEB00242EB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2FE320C1CC86FEB00242EB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FE320D1CC86FEB00242EB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2FE32261CC86FEB00242EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2FE32271CC86FEB00242EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2FE32291CC86FEB00242EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swiftday02-字符串和字符/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "penglei.swiftday02-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2FE322A1CC86FEB00242EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swiftday02-字符串和字符/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "penglei.swiftday02-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2FE322C1CC86FEB00242EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "swiftday02-字符串和字符Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "penglei.swiftday02-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftday02-字符串和字符.app/swiftday02-字符串和字符";
+			};
+			name = Debug;
+		};
+		F2FE322D1CC86FEB00242EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "swiftday02-字符串和字符Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "penglei.swiftday02-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftday02-字符串和字符.app/swiftday02-字符串和字符";
+			};
+			name = Release;
+		};
+		F2FE322F1CC86FEB00242EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "swiftday02-字符串和字符UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "penglei.swiftday02-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "swiftday02-字符串和字符";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F2FE32301CC86FEB00242EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "swiftday02-字符串和字符UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "penglei.swiftday02-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "swiftday02-字符串和字符";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2FE31FB1CC86FEB00242EB6 /* Build configuration list for PBXProject "swiftday02-字符串和字符" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FE32261CC86FEB00242EB6 /* Debug */,
+				F2FE32271CC86FEB00242EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2FE32281CC86FEB00242EB6 /* Build configuration list for PBXNativeTarget "swiftday02-字符串和字符" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FE32291CC86FEB00242EB6 /* Debug */,
+				F2FE322A1CC86FEB00242EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2FE322B1CC86FEB00242EB6 /* Build configuration list for PBXNativeTarget "swiftday02-字符串和字符Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FE322C1CC86FEB00242EB6 /* Debug */,
+				F2FE322D1CC86FEB00242EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2FE322E1CC86FEB00242EB6 /* Build configuration list for PBXNativeTarget "swiftday02-字符串和字符UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FE322F1CC86FEB00242EB6 /* Debug */,
+				F2FE32301CC86FEB00242EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2FE31F81CC86FEB00242EB6 /* Project object */;
+}
